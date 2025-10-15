@@ -1,0 +1,24 @@
+# Ignore all executable installers
+*.exe
+*.msi
+
+# Ignore log files and folders
+log/
+*.log
+
+# Ignore dependency folders
+node_modules/
+
+# Ignore system and license files from downloaded tools
+LICENSE-Community.txt
+MPL-2
+THIRD-PARTY-NOTICES
+
+# Ignore tool folders
+Git/
+bin/
+
+# Optional: Ignore data folder if it's not source code
+# data/git add .
+# Ignore the live database directory
+data/
